@@ -100,11 +100,11 @@ public class MessageCommands {
 
         receiver.sendMessage(ChatColor.GRAY + "(From "
                 + plugin.toName(sender) + "): "
-                + ChatColor.WHITE + message);
+                + ChatColor.BLUE + message);
         
         sender.sendMessage(ChatColor.GRAY + "(To "
                 + plugin.toName(receiver) + "): "
-                + ChatColor.WHITE + message);
+                + ChatColor.BLUE + message);
         
         memory.put(senderUName, receiverUName);
         
@@ -142,11 +142,11 @@ public class MessageCommands {
 
         receiver.sendMessage(ChatColor.GRAY + "(From "
                 + plugin.toName(sender) + "): "
-                + ChatColor.WHITE + message);
+                + ChatColor.BLUE + message);
         
         sender.sendMessage(ChatColor.GRAY + "(To "
                 + plugin.toName(receiver) + "): "
-                + ChatColor.WHITE + message);
+                + ChatColor.BLUE + message);
         
         // If the receiver hasn't had any player talk to them yet or hasn't
         // send a message, then we add it to the receiver's last message target
